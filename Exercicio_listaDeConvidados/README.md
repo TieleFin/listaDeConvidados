@@ -42,7 +42,7 @@ const convidados = [
     "Amanda de Oliveira",
     "Renata dos Santos",
     "Cristina da Silva",
-    "Tiago Gonçalvez
+    "Tiago Gonçalvez"
 ]
 ```
 
@@ -54,13 +54,13 @@ const convidados = [
     "Amanda de Oliveira",
     "Renata dos Santos",
     "Cristina da Silva",
-    "Tiago Gonçalvez
+    "Tiago Gonçalvez"
  ]
 ```
 
 _______________
 
-### **Consultar se convidado está na lista**  📋
+### **Consultar se um convidado está na lista**  📋
 
 Você deverá utilizar a URL: http://localhost:3000/convidados, o verbo será o GET e no query deverá ter o parâmetro nome. 
 
@@ -73,14 +73,14 @@ Se quisermos veriricar se o nome "Diogo Teixeira" está na lista:
 O retorno deverá ser conforme exemplos abaixo:
 
 ```javascript
-// Quando é informado um nome que não existe:
+// Quando é informado um nome que não está na lista:
 // HTTP Status 404
 {
     "mensagem": "Convidado não encontrado"
 }
 ```
 ```javascript
-// Quando é informado um nome que não existe:
+// Quando é informado um nome presente na lista:
 // HTTP Status 200
 {
     "mensagem": "Convidado está na lista"
