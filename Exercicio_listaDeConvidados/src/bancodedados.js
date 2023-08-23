@@ -1,10 +1,7 @@
 const convidados = [
-    { nome: "Carlos" },
-    { nome: "Amanda" },
-    { nome: "Fernanda" },
-    { nome: "Juliana" },
-    { nome: "Lucas" },
-    { nome: "Roberto" },
+    "César da Silva",
+    "Tatiana Andrade",
+    "Jéssica Bernardes",
 ]
 
 module.exports = convidados
