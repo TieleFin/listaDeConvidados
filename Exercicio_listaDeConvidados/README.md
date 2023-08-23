@@ -7,7 +7,7 @@ O servidor será executado em **Node.js** que será acessado através do endere�
 
 Você deverá utilizar o padrão API REST.
 
-![](./imagem_festa.png)
+![](./imagem_festa_semfundo.png)
 
 ## Funcionalidades
 O sistema deverá permitir que o usuário:
